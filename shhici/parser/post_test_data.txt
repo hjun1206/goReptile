@@ -1,0 +1,532 @@
+﻿GOROOT=D:\Go #gosetup
+GOPATH=D:\GoPATH #gosetup
+D:\Go\bin\go.exe build -o C:\Users\17197\AppData\Local\Temp\___go_build_reptile.exe reptile #gosetup
+C:\Users\17197\AppData\Local\Temp\___go_build_reptile.exe #gosetup
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Cache-Control" content="no-siteapp" /><meta http-equiv="Cache-Control" content="no-transform " /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+诗人大全_古诗文网
+</title>
+<script type="text/javascript">
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+        window.location.href = "https://m.gushiwen.org/authors/Default.aspx?p=1&c=%e4%b8%8d%e9%99%90";
+    } else {
+
+    }
+</script>
+<link href="/css/skinSo20191017.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    //取得cookie值
+    function getCookie(name) {
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+
+        if (arr = document.cookie.match(reg))
+
+            return unescape(arr[2]);
+        else
+            return null;
+    }
+
+    //判断收藏
+    function selectLike(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsShiwen2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    //判断收藏名句
+    function selectLikeMingju(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsMingju2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    //判断收藏作者
+    function selectLikeAuthor(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsAuthor2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    //判断收藏古籍
+    function selectLikeGuwen(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsGuji2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    </script>
+<script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?04660099568f561a75456483228a9516";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+</script>
+</head>
+<body onclick="closeshowBos()">
+<div class="main1">
+<div class="cont">
+<div class="left">
+<a href="https://www.gushiwen.org/">古诗文网</a>
+</div>
+<div class="right">
+<div class="son1">
+<a style="margin-left:1px;" href="https://www.gushiwen.org/">推荐</a>
+<a href="/shiwen/">诗文</a>
+<a href="/mingju/">名句</a>
+<a href="/authors/" style="background-color:#757863;border-bottom:3px solid #F0EFE2;line-height:43px; height:43px;">作者</a>
+<a href="/guwen/">古籍</a>
+<a href="/user/collect.aspx" rel="nofollow">我的</a>
+<a style="width:65px;" href="/app/" target="_blank">手机版</a>
+</div>
+<div class="son2">
+<div class="search">
+<form action="/search.aspx" onsubmit="return selectSearch()" contentType="text/html; charset=utf-8">
+<input onkeydown="noajaxkeyUp()" onfocus="setInterval('showBos()',1000)" id="txtKey" name="value" type="text" value="" maxlength="40" autocomplete="off" style="height:25px; line-height:25px; float:left; padding-left:5px; width:264px; font-size:14px; clear:left; border:0px;" />
+<input type="submit" style="float:right; width:20px; height:20px; clear:right; margin-top:4px; margin-right:3px; background-image:url(https://song.gushiwen.org/siteimg/docSearch.png); background-repeat:no-repeat; background-size:20px 20px; border:0px;cursor:pointer;" value="" />
+<input id="b" style="display:none;" type="text" />
+</form>
+</div>
+<div id="box"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="main3">
+<div class="left">
+<div class="titletype">
+<div class="son1"><h1>不限<span>1 / 100页</span></h1></div>
+<div class="son2" style=" border-bottom:0px; padding-bottom:15px;">
+<div class="sleft">
+<span style="width:auto;">朝代：</span>
+</div>
+<div class="sright" style="width:580px;">
+<span style=" width:auto;">不限</span>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e5%85%88%e7%a7%a6">先秦</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e4%b8%a4%e6%b1%89">两汉</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e9%ad%8f%e6%99%8b">魏晋</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e5%8d%97%e5%8c%97%e6%9c%9d">南北朝</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e9%9a%8b%e4%bb%a3">隋代</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e5%94%90%e4%bb%a3">唐代</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e4%ba%94%e4%bb%a3">五代</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e5%ae%8b%e4%bb%a3">宋代</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e9%87%91%e6%9c%9d">金朝</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e5%85%83%e4%bb%a3">元代</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e6%98%8e%e4%bb%a3">明代</a>
+<a style=" width:auto; margin-left:16px;" href="/authors/Default.aspx?p=1&c=%e6%b8%85%e4%bb%a3">清代</a>
+</div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor247">李白（701年－762年），字太白，号青莲居士，唐朝浪漫主义诗人，被后人誉为“诗仙”。祖籍陇西成纪(待考)，出生于西域碎叶城，4岁再随父迁至剑南道绵州。李白存世诗文千余篇，有《李太白集》传世。762年病逝，享年61岁。其墓在今安徽当涂，四川江油、湖北安陆有纪念馆。https://so.gushiwen.org/authorv_b90660e3e492.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_b90660e3e492.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/libai.jpg" width="105" height="150" alt="李白"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_b90660e3e492.aspx"><b>李白</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(247)"><img id="speakerimgAuthor247" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay247" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">李白（701年－762年），字太白，号青莲居士，唐朝浪漫主义诗人，被后人誉为“诗仙”。祖籍陇西成纪(待考)，出生于西域碎叶城，4岁再随父迁至剑南道绵州。李白存世诗文千余篇，有《李太白集》传世。762年病逝，享年61岁。其墓在今安徽当涂，四川江油、湖北安陆有纪念馆。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_b90660e3e492A1.aspx">? 1178篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg247" name="0" onload="selectLikeAuthor(247)" onclick="changeLikeAuthor(247,'72ED331D79C10449','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(247)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_b90660e3e492.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%85b90660e3e492%e3%80%8a%e6%9d%8e%e7%99%bd%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor183">（1037年1月8日-1101年8月24日）字子瞻、和仲，号铁冠道人、东坡居士，世称苏东坡、苏仙，汉族，眉州眉山（四川省眉山市）人，祖籍河北栾城，北宋著名文学家、书法家、画家，历史治水名人。苏轼是北宋中期文坛领袖，在诗、词、散文、书、画等方面取得很高成就。文纵横恣肆；诗题材广阔，清新豪健，善用夸张比喻，独具风格，与黄庭坚并称“苏黄”；词开豪放一派，与辛弃疾同是豪放派代表，并称“苏辛”；散文著述宏富，豪放自如，与欧阳修并称“欧苏”，为“唐宋八大家”之一。苏轼善书，“宋四家”之一；擅长文人画，尤擅墨竹、怪石、枯木等。作品有《东坡七集》《东坡易传》《东坡乐府》《潇湘竹石图卷》《古木怪石图卷》等。https://so.gushiwen.org/authorv_3b99a16ff2dd.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_3b99a16ff2dd.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/sushi.jpg" width="105" height="150" alt="苏轼"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_3b99a16ff2dd.aspx"><b>苏轼</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(183)"><img id="speakerimgAuthor183" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay183" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">（1037年1月8日-1101年8月24日）字子瞻、和仲，号铁冠道人、东坡居士，世称苏东坡、苏仙，汉族，眉州眉山（四川省眉山市）人，祖籍河北栾城，北宋著名文学家、书法家、画家，历史治水名人。苏轼是北宋中期文坛领袖，在诗、词、散文、书、画等方面取得很高成就。文纵横恣肆；诗题材广阔，清新豪健，善用夸张比喻，独具风格，与黄庭坚并称“苏黄”；词开豪放一派，与辛弃疾同是豪放派代表，并称“苏辛”；散文著述宏富，豪放自如，与欧阳修并称“欧苏”，为“唐宋八大家”之一。苏轼善书，“宋四家”之一；擅长文人画，尤擅墨竹、怪石、枯木等。作品有《东坡七集》《东坡易传》《东坡乐府》《潇湘竹石图卷》《古木怪石图卷》等。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_3b99a16ff2ddA1.aspx">? 3360篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg183" name="0" onload="selectLikeAuthor(183)" onclick="changeLikeAuthor(183,'90BB8CF6E81DC4DB','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(183)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_3b99a16ff2dd.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%853b99a16ff2dd%e3%80%8a%e8%8b%8f%e8%bd%bc%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor665">白居易（772年－846年），字乐天，号香山居士，又号醉吟先生，祖籍太原，到其曾祖父时迁居下邽，生于河南新郑。是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。白居易的诗歌题材广泛，形式多样，语言平易通俗，有“诗魔”和“诗王”之称。官至翰林学士、左赞善大夫。公元846年，白居易在洛阳逝世，葬于香山。有《白氏长庆集》传世，代表诗作有《长恨歌》、《卖炭翁》、《琵琶行》等。https://so.gushiwen.org/authorv_85097dd0c645.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_85097dd0c645.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/baijuyi.jpg" width="105" height="150" alt="白居易"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_85097dd0c645.aspx"><b>白居易</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(665)"><img id="speakerimgAuthor665" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay665" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">白居易（772年－846年），字乐天，号香山居士，又号醉吟先生，祖籍太原，到其曾祖父时迁居下邽，生于河南新郑。是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。白居易的诗歌题材广泛，形式多样，语言平易通俗，有“诗魔”和“诗王”之称。官至翰林学士、左赞善大夫。公元846年，白居易在洛阳逝世，葬于香山。有《白氏长庆集》传世，代表诗作有《长恨歌》、《卖炭翁》、《琵琶行》等。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_85097dd0c645A1.aspx">? 3075篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg665" name="0" onload="selectLikeAuthor(665)" onclick="changeLikeAuthor(665,'0944B6BB2E12D115','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(665)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_85097dd0c645.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%8585097dd0c645%e3%80%8a%e7%99%bd%e5%b1%85%e6%98%93%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor474">杜甫（712－770），字子美，自号少陵野老，世称“杜工部”、“杜少陵”等，汉族，河南府巩县（今河南省巩义市）人，唐代伟大的现实主义诗人，杜甫被世人尊为“诗圣”，其诗被称为“诗史”。杜甫与李白合称“李杜”，为了跟另外两位诗人李商隐与杜牧即“小李杜”区别开来，杜甫与李白又合称“大李杜”。他忧国忧民，人格高尚，他的约1400余首诗被保留了下来，诗艺精湛，在中国古典诗歌中备受推崇，影响深远。759-766年间曾居成都，后世有杜甫草堂纪念。https://so.gushiwen.org/authorv_515ea88d1858.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_515ea88d1858.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/dufu.jpg" width="105" height="150" alt="杜甫"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_515ea88d1858.aspx"><b>杜甫</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(474)"><img id="speakerimgAuthor474" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay474" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">杜甫（712－770），字子美，自号少陵野老，世称“杜工部”、“杜少陵”等，汉族，河南府巩县（今河南省巩义市）人，唐代伟大的现实主义诗人，杜甫被世人尊为“诗圣”，其诗被称为“诗史”。杜甫与李白合称“李杜”，为了跟另外两位诗人李商隐与杜牧即“小李杜”区别开来，杜甫与李白又合称“大李杜”。他忧国忧民，人格高尚，他的约1400余首诗被保留了下来，诗艺精湛，在中国古典诗歌中备受推崇，影响深远。759-766年间曾居成都，后世有杜甫草堂纪念。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_515ea88d1858A1.aspx">? 1371篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg474" name="0" onload="selectLikeAuthor(474)" onclick="changeLikeAuthor(474,'61B2492765FE51E1','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(474)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_515ea88d1858.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%85515ea88d1858%e3%80%8a%e6%9d%9c%e7%94%ab%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor536">李清照（1084年3月13日～1155年5月12日）号易安居士，汉族，山东省济南章丘人。宋代（南北宋之交）女词人，婉约词派代表，有“千古第一才女”之称。所作词，前期多写其悠闲生活，后期多悲叹身世，情调感伤。形式上善用白描手法，自辟途径，语言清丽。论词强调协律，崇尚典雅，提出词“别是一家”之说，反对以作诗文之法作词。能诗，留存不多，部分篇章感时咏史，情辞慷慨，与其词风不同。有《易安居士文集》《易安词》，已散佚。后人有《漱玉词》辑本。今有《李清照集校注》。https://so.gushiwen.org/authorv_9cb3b7c0e4a0.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_9cb3b7c0e4a0.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/liqingzhao.jpg" width="105" height="150" alt="李清照"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_9cb3b7c0e4a0.aspx"><b>李清照</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(536)"><img id="speakerimgAuthor536" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay536" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">李清照（1084年3月13日～1155年5月12日）号易安居士，汉族，山东省济南章丘人。宋代（南北宋之交）女词人，婉约词派代表，有“千古第一才女”之称。所作词，前期多写其悠闲生活，后期多悲叹身世，情调感伤。形式上善用白描手法，自辟途径，语言清丽。论词强调协律，崇尚典雅，提出词“别是一家”之说，反对以作诗文之法作词。能诗，留存不多，部分篇章感时咏史，情辞慷慨，与其词风不同。有《易安居士文集》《易安词》，已散佚。后人有《漱玉词》辑本。今有《李清照集校注》。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_9cb3b7c0e4a0A1.aspx">? 103篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg536" name="0" onload="selectLikeAuthor(536)" onclick="changeLikeAuthor(536,'4DF88B73F001A5E2','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(536)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_9cb3b7c0e4a0.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%859cb3b7c0e4a0%e3%80%8a%e6%9d%8e%e6%b8%85%e7%85%a7%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor217">辛弃疾（1140－1207），南宋词人。原字坦夫，改字幼安，别号稼轩，汉族，历城（今山东济南）人。出生时，中原已为金兵所占。21岁参加抗金义军，不久归南宋。历任湖北、江西、湖南、福建、浙东安抚使等职。一生力主抗金。曾上《美芹十论》与《九议》，条陈战守之策。其词抒写力图恢复国家统一的爱国热情，倾诉壮志难酬的悲愤，对当时执政者的屈辱求和颇多谴责；也有不少吟咏祖国河山的作品。题材广阔又善化用前人典故入词，风格沉雄豪迈又不乏细腻柔媚之处。由于辛弃疾的抗金主张与当政的主和派政见不合，后被弹劾落职，退隐江西带湖。https://so.gushiwen.org/authorv_a7900666497f.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_a7900666497f.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/xinqiji.jpg" width="105" height="150" alt="辛弃疾"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_a7900666497f.aspx"><b>辛弃疾</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(217)"><img id="speakerimgAuthor217" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay217" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">辛弃疾（1140－1207），南宋词人。原字坦夫，改字幼安，别号稼轩，汉族，历城（今山东济南）人。出生时，中原已为金兵所占。21岁参加抗金义军，不久归南宋。历任湖北、江西、湖南、福建、浙东安抚使等职。一生力主抗金。曾上《美芹十论》与《九议》，条陈战守之策。其词抒写力图恢复国家统一的爱国热情，倾诉壮志难酬的悲愤，对当时执政者的屈辱求和颇多谴责；也有不少吟咏祖国河山的作品。题材广阔又善化用前人典故入词，风格沉雄豪迈又不乏细腻柔媚之处。由于辛弃疾的抗金主张与当政的主和派政见不合，后被弹劾落职，退隐江西带湖。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_a7900666497fA1.aspx">? 916篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg217" name="0" onload="selectLikeAuthor(217)" onclick="changeLikeAuthor(217,'B53C3B2B2747A848','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(217)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_a7900666497f.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%85a7900666497f%e3%80%8a%e8%be%9b%e5%bc%83%e7%96%be%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor515">王维（701年－761年，一说699年—761年），字摩诘，汉族，河东蒲州（今山西运城）人，祖籍山西祁县，唐朝诗人，有“诗佛”之称。苏轼评价其：“味摩诘之诗，诗中有画；观摩诘之画，画中有诗。”开元九年（721年）中进士，任太乐丞。王维是盛唐诗人的代表，今存诗400余首，重要诗作有《相思》《山居秋暝》等。王维精通佛学，受禅宗影响很大。佛教有一部《维摩诘经》，是王维名和字的由来。王维诗书画都很有名，多才多艺，音乐也很精通。与孟浩然合称“王孟”。https://so.gushiwen.org/authorv_52fceee85532.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_52fceee85532.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/wangwei.jpg" width="105" height="150" alt="王维"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_52fceee85532.aspx"><b>王维</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(515)"><img id="speakerimgAuthor515" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay515" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">王维（701年－761年，一说699年—761年），字摩诘，汉族，河东蒲州（今山西运城）人，祖籍山西祁县，唐朝诗人，有“诗佛”之称。苏轼评价其：“味摩诘之诗，诗中有画；观摩诘之画，画中有诗。”开元九年（721年）中进士，任太乐丞。王维是盛唐诗人的代表，今存诗400余首，重要诗作有《相思》《山居秋暝》等。王维精通佛学，受禅宗影响很大。佛教有一部《维摩诘经》，是王维名和字的由来。王维诗书画都很有名，多才多艺，音乐也很精通。与孟浩然合称“王孟”。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_52fceee85532A1.aspx">? 442篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg515" name="0" onload="selectLikeAuthor(515)" onclick="changeLikeAuthor(515,'CE43622003FC9280','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(515)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_52fceee85532.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%8552fceee85532%e3%80%8a%e7%8e%8b%e7%bb%b4%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor188">纳兰性德（1655－1685），满洲人，字容若，号楞伽山人，清代最著名词人之一。其诗词“纳兰词”在清代以至整个中国词坛上都享有很高的声誉，在中国文学史上也占有光彩夺目的一席。他生活于满汉融合时期，其贵族家庭兴衰具有关联于王朝国事的典型性。虽侍从帝王，却向往经历平淡。特殊的生活环境背景，加之个人的超逸才华，使其诗词创作呈现出独特的个性和鲜明的艺术风格。流传至今的《木兰花令&#183;拟古决绝词》——“人生若只如初见，何事秋风悲画扇？等闲变却故人心，却道故人心易变。”富于意境，是其众多代表作之一。https://so.gushiwen.org/authorv_01611cc80faf.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_01611cc80faf.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/nalanxingde.jpg" width="105" height="150" alt="纳兰性德"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_01611cc80faf.aspx"><b>纳兰性德</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(188)"><img id="speakerimgAuthor188" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay188" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">纳兰性德（1655－1685），满洲人，字容若，号楞伽山人，清代最著名词人之一。其诗词“纳兰词”在清代以至整个中国词坛上都享有很高的声誉，在中国文学史上也占有光彩夺目的一席。他生活于满汉融合时期，其贵族家庭兴衰具有关联于王朝国事的典型性。虽侍从帝王，却向往经历平淡。特殊的生活环境背景，加之个人的超逸才华，使其诗词创作呈现出独特的个性和鲜明的艺术风格。流传至今的《木兰花令&#183;拟古决绝词》——“人生若只如初见，何事秋风悲画扇？等闲变却故人心，却道故人心易变。”富于意境，是其众多代表作之一。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_01611cc80fafA1.aspx">? 288篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg188" name="0" onload="selectLikeAuthor(188)" onclick="changeLikeAuthor(188,'F9721865A2364380','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(188)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_01611cc80faf.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%8501611cc80faf%e3%80%8a%e7%ba%b3%e5%85%b0%e6%80%a7%e5%be%b7%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor204">李商隐（约813年-约858年），字义山，号玉溪（谿）生、樊南生，唐代著名诗人，祖籍河内（今河南省焦作市）沁阳，出生于郑州荥阳。他擅长诗歌写作，骈文文学价值也很高，是晚唐最出色的诗人之一，和杜牧合称“小李杜”，与温庭筠合称为“温李”，因诗文与同时期的段成式、温庭筠风格相近，且三人都在家族里排行第十六，故并称为“三十六体”。其诗构思新奇，风格秾丽，尤其是一些爱情诗和无题诗写得缠绵悱恻，优美动人，广为传诵。但部分诗歌过于隐晦迷离，难于索解，至有“诗家总爱西昆好，独恨无人作郑笺”之说。因处于牛李党争的夹缝之中，一生很不得志。死后葬于家乡沁阳（今河南焦作市沁阳与博爱县交界之处）。作品收录为《李义山诗集》。https://so.gushiwen.org/authorv_bc94c92721b8.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_bc94c92721b8.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/lishangyin.jpg" width="105" height="150" alt="李商隐"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_bc94c92721b8.aspx"><b>李商隐</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(204)"><img id="speakerimgAuthor204" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay204" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">李商隐（约813年-约858年），字义山，号玉溪（谿）生、樊南生，唐代著名诗人，祖籍河内（今河南省焦作市）沁阳，出生于郑州荥阳。他擅长诗歌写作，骈文文学价值也很高，是晚唐最出色的诗人之一，和杜牧合称“小李杜”，与温庭筠合称为“温李”，因诗文与同时期的段成式、温庭筠风格相近，且三人都在家族里排行第十六，故并称为“三十六体”。其诗构思新奇，风格秾丽，尤其是一些爱情诗和无题诗写得缠绵悱恻，优美动人，广为传诵。但部分诗歌过于隐晦迷离，难于索解，至有“诗家总爱西昆好，独恨无人作郑笺”之说。因处于牛李党争的夹缝之中，一生很不得志。死后葬于家乡沁阳（今河南焦作市沁阳与博爱县交界之处）。作品收录为《李义山诗集》。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_bc94c92721b8A1.aspx">? 599篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg204" name="0" onload="selectLikeAuthor(204)" onclick="changeLikeAuthor(204,'6ED003C422DAE416','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(204)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_bc94c92721b8.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%85bc94c92721b8%e3%80%8a%e6%9d%8e%e5%95%86%e9%9a%90%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor272">陆游（1125—1210），字务观，号放翁。汉族，越州山阴（今浙江绍兴）人，南宋著名诗人。少时受家庭爱国思想熏陶，高宗时应礼部试，为秦桧所黜。孝宗时赐进士出身。中年入蜀，投身军旅生活，官至宝章阁待制。晚年退居家乡。创作诗歌今存九千多首，内容极为丰富。著有《剑南诗稿》、《渭南文集》、《南唐书》、《老学庵笔记》等。https://so.gushiwen.org/authorv_efd5da0ed1a1.aspx</textarea>
+</div>
+<div class="sonspic">
+<div class="cont" style="margin-top:13px;">
+<div class="divimg" style="margin-top:2px;">
+<a href="https://so.gushiwen.cn/authorv_efd5da0ed1a1.aspx" target="_blank"><img src="https://song.gushiwen.cn/authorImg/luyou.jpg" width="105" height="150" alt="陆游"/></a>
+</div>
+<p style="height:22px;">
+<a target="_blank" style="font-size:18px; line-height:22px; height:22px;" href="https://so.gushiwen.cn/authorv_efd5da0ed1a1.aspx"><b>陆游</b></a>
+<a style="margin-left:5px;" href="javascript:PlayAuthor(272)"><img id="speakerimgAuthor272" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="16" height="16"/></a>
+<span id="authorPlay272" style=" display:none;width:1px; height:1px;"></span>
+</p>
+<p style=" margin:0px;">陆游（1125—1210），字务观，号放翁。汉族，越州山阴（今浙江绍兴）人，南宋著名诗人。少时受家庭爱国思想熏陶，高宗时应礼部试，为秦桧所黜。孝宗时赐进士出身。中年入蜀，投身军旅生活，官至宝章阁待制。晚年退居家乡。创作诗歌今存九千多首，内容极为丰富。著有《剑南诗稿》、《渭南文集》、《南唐书》、《老学庵笔记》等。<a target="_blank" href="https://so.gushiwen.cn/authors/authorvsw_efd5da0ed1a1A1.aspx">? 10456篇诗文</a> </p>
+</div>
+<div class="tool">
+<div class="shoucang"><img id="likeImg272" name="0" onload="selectLikeAuthor(272)" onclick="changeLikeAuthor(272,'B33DD9DC8C1A1863','http://so.gushiwen.org/authors/default.aspx')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+<div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="javascript:copyAuthor(272)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+<div class="toolpinglun"><a href="https://song.gushiwen.cn/authorv_efd5da0ed1a1.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+<div class="jiucuo"><a href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%85efd5da0ed1a1%e3%80%8a%e9%99%86%e6%b8%b8%e3%80%8b" target="_blank">完善</a></div>
+</div>
+</div>
+<form id="FromPage" method="get" action="/authors/Default.aspx" onsubmit="return PageSubmit()">
+<div class="pagesright">
+<a class="amore" href="/authors/default.aspx?p=2&c=">下一页</a>
+<a style=" color:#808080;background-color:#e7e6d8;">上一页</a>
+<span style=" background-color:#E1E0C7; border:0px; margin-top:22px; width:auto;">/ 100页</span>
+<span class="curent"><input id="putpage" name="p" value="1" autocomplete="off" onblur="SubPage()" /></span>
+<label id="temppage" style="display:none;">1</label>
+<label id="sumPage" style="display:none;">100</label>
+<input type="hidden" name="c" value="不限" />
+</div>
+</form>
+</div>
+<div class="right">
+<div class="sons">
+<div class="title">
+<div class="titleleft"></div>
+作者
+</div>
+<div class="cont">
+<a href="/authorv_b90660e3e492.aspx">李白</a>
+<a href="/authorv_85097dd0c645.aspx">白居易</a>
+<a href="/authorv_515ea88d1858.aspx">杜甫</a>
+<a href="/authorv_3b99a16ff2dd.aspx">苏轼</a>
+<a href="/authorv_a7900666497f.aspx">辛弃疾</a>
+<a href="/authorv_9cb3b7c0e4a0.aspx">李清照</a>
+<a href="/authorv_e3c4e8cf2646.aspx">刘禹锡</a>
+<a href="/authorv_52fceee85532.aspx">王维</a>
+<a href="/authorv_bc94c92721b8.aspx">李商隐</a>
+<a href="/authorv_01611cc80faf.aspx">纳兰性德</a>
+<a href="/authorv_727e9dff8850.aspx">杜牧</a>
+<a href="/authorv_efd5da0ed1a1.aspx">陆游</a>
+<a href="/authorv_07d17f8539d7.aspx">陶渊明</a>
+<a href="/authorv_3811e4e1f460.aspx">孟浩然</a>
+<a href="/authorv_201a0677dee4.aspx">元稹</a>
+<a href="/authorv_05635286bf64.aspx">李煜</a>
+<a href="/authorv_0ba13a22799e.aspx">柳宗元</a>
+<a href="/authorv_0969d1da1ac1.aspx">岑参</a>
+<a href="/authorv_1abe13750637.aspx">韩愈</a>
+<a href="/authorv_6485481407d1.aspx">王安石</a>
+<a href="/authorv_7ab3b8200774.aspx">欧阳修</a>
+<a href="/authorv_236f882d5f10.aspx">齐己</a>
+<a href="/authorv_568070f3fde8.aspx">贾岛</a>
+<a href="/authorv_00ea9cc9fdbf.aspx">韦应物</a>
+<a href="/authorv_f4d9b1ed94dc.aspx">曹操</a>
+<a href="/authorv_c367ccd8cd08.aspx">温庭筠</a>
+<a href="/authorv_682bdf0fd34e.aspx">柳永</a>
+<a href="/authorv_b3e23d54ee99.aspx">刘长卿</a>
+<a href="/authorv_74d46d599f15.aspx">李贺</a>
+<a href="/authorv_6c695909f577.aspx">曹植</a>
+<a href="/authorv_d9343fa5dac7.aspx">王昌龄</a>
+<a href="/authorv_05460f6423b0.aspx">张籍</a>
+<a href="/authorv_2f7f3273612a.aspx">孟郊</a>
+<a href="/authorv_179f3ae96ec4.aspx">皎然</a>
+<a href="/authorv_a6acb3e3e0dd.aspx">贯休</a>
+<a href="/authorv_ff17134b62ff.aspx">许浑</a>
+<a href="/authorv_3de7172b3782.aspx">罗隐</a>
+<a href="/authorv_677ad0bb97e7.aspx">杨万里</a>
+<a href="/authorv_46b894036ae3.aspx">陆龟蒙</a>
+<a href="/authorv_2d4282baeca8.aspx">张祜</a>
+<a href="/authorv_ae8538b4e917.aspx">王建</a>
+<a href="/authorv_7ce628a673ef.aspx">韦庄</a>
+<a href="/authorv_e82a672a1ca9.aspx">诸葛亮</a>
+<a href="/authorv_c2c3edb9c1b1.aspx">范仲淹</a>
+<a href="/authorv_e6b970da08cd.aspx">王勃</a>
+<a href="/authorv_61eacce8c314.aspx">姚合</a>
+<a href="/authorv_20e68621f077.aspx">晏殊</a>
+<a href="/authorv_9c69482f885f.aspx">屈原</a>
+<a href="/authorv_782b7ec7e8ae.aspx">卢纶</a>
+<a href="/authorv_3fade50333c4.aspx">杜荀鹤</a>
+<a href="/authorv_bc5bd15a8c34.aspx">岳飞</a>
+<a href="/authorv_40ce21be572d.aspx">周邦彦</a>
+<a href="/authorv_1e6d9d77697a.aspx">晏几道</a>
+<a href="/authorv_5219605011ab.aspx">钱起</a>
+<a href="/authorv_ce61301b9cf7.aspx">韩偓</a>
+<a href="/authorv_ed13dc2f731c.aspx">皮日休</a>
+<a href="/authorv_d4825d86f017.aspx">秦观</a>
+<a href="/authorv_f57e6789865a.aspx">吴文英</a>
+<a href="/authorv_ae228ff17e71.aspx">朱熹</a>
+<a href="/authorv_b44661291893.aspx">高适</a>
+<a href="/authorv_76758677c136.aspx">方干</a>
+<a href="/authorv_d0f71489043c.aspx">马致远</a>
+<a href="/authorv_f5e3721e014f.aspx">李峤</a>
+<a href="/authorv_3001715a9955.aspx">赵嘏</a>
+<a href="/authorv_90bafbe61cf7.aspx">权德舆</a>
+<a href="/authorv_e9907dd08d8b.aspx">皇甫冉</a>
+<a href="/authorv_1585930d4e76.aspx">左丘明</a>
+<a href="/authorv_5452bed2115f.aspx">刘辰翁</a>
+<a href="/authorv_5ca283e748ca.aspx">郑谷</a>
+<a href="/authorv_252e1b6ee61f.aspx">黄庭坚</a>
+<a href="/authorv_389bc382deaf.aspx">贺铸</a>
+<a href="/authorv_61b1f8244d24.aspx">赵长卿</a>
+<a href="/authorv_0f2fe2d36f61.aspx">张九龄</a>
+<a href="/authorv_ffbc39f27901.aspx">卓文君</a>
+<a href="/authorv_af3666b92472.aspx">戴叔伦</a>
+<a href="/authorv_f01178aaa8c0.aspx">司马迁</a>
+<a href="/authorv_b9737a950f1f.aspx">周敦颐</a>
+<a href="/authorv_7ef6502f1e96.aspx">文天祥</a>
+<a href="/authorv_e47835478657.aspx">张说</a>
+<a href="/authorv_c6454212c8da.aspx">张炎</a>
+<a href="/authorv_a4c70d8d6e0e.aspx">郑燮</a>
+<a href="/authorv_45c7b7ffa770.aspx">程垓</a>
+<a href="/authorv_d82bfa645313.aspx">朱敦儒</a>
+<a href="/authorv_a4d0598c1f4c.aspx">吴融</a>
+<a href="/authorv_273c4b7b5807.aspx">白朴</a>
+<a href="/authorv_44ca268d5c43.aspx">刘克庄</a>
+<a href="/authorv_82dc795fbcac.aspx">李端</a>
+<a href="/authorv_a4f5884125b1.aspx">司空图</a>
+<a href="/authorv_d2c43a8ea55a.aspx">顾况</a>
+<a href="/authorv_ee60971ad9b4.aspx">张乔</a>
+<a href="/authorv_0955ca350ffe.aspx">马戴</a>
+<a href="/authorv_06c9f58eb897.aspx">吴潜</a>
+<a href="/authorv_83fa70cf5a10.aspx">张孝祥</a>
+<a href="/authorv_b8ce6bb93501.aspx">韩翃</a>
+<a href="/authorv_4b13c1698a34.aspx">郦道元</a>
+<a href="/authorv_14fd383123cc.aspx">陈著</a>
+<a href="/authorv_0410a34d2e7c.aspx">宋之问</a>
+<a href="/authorv_79e0e9d1f260.aspx">贺知章</a>
+<a href="/authorv_637fa1f1b67a.aspx">王之涣</a>
+</div>
+</div>
+<div class="abcd">
+<script type="text/javascript" src="//yijiuningyia.gushiwen.org/common/site/izgy4.js?n=ixqkhkrr"></script>
+</div>
+</div>
+</div>
+<div class="main4">
+? 2020 <a href="https://www.gushiwen.org/">古诗文网</a> | <a href="https://so.gushiwen.cn/shiwen/">诗文</a> | <a href="https://so.gushiwen.cn/mingju/">名句</a> | <a href="https://so.gushiwen.cn/authors/">作者</a> | <a href="https://so.gushiwen.cn/guwen/">古籍</a> | <a href="/jiucuo.aspx?u=" target="_blank" rel="nofollow">纠错</a>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        setIframeHeight(document.getElementById('external-frame'));
+    };
+        </script>
+<script defer="defer" src="/js/skinso20191025.js" type="text/javascript"></script>
+</body>
+</html>

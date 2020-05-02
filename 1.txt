@@ -1,0 +1,771 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Cache-Control" content="no-siteapp" /><meta http-equiv="Cache-Control" content="no-transform " /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+	辛弃疾的诗词全集_诗集、词集(916首全)_古诗文网
+</title>
+<script type="text/javascript">
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+        window.location.href = "https://m.gushiwen.org/authors/authorvsw_a7900666497fA10.aspx";
+    } else {
+
+    }
+</script>
+
+<link href="/css/skinSo20191017.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    //取得cookie值
+    function getCookie(name) {
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+
+        if (arr = document.cookie.match(reg))
+
+            return unescape(arr[2]);
+        else
+            return null;
+    }
+
+    //判断收藏
+    function selectLike(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsShiwen2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    //判断收藏名句
+    function selectLikeMingju(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsMingju2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    //判断收藏作者
+    function selectLikeAuthor(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsAuthor2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    //判断收藏古籍
+    function selectLikeGuwen(id) {
+        document.getElementById('likeImg' + id).name = parseInt(document.getElementById('likeImg' + id).name) + 1;
+        if (document.getElementById('likeImg' + id).name == '1') {
+            var idsShigeLaiyo = getCookie('idsGuji2017');
+            if (idsShigeLaiyo != null && idsShigeLaiyo != '') {
+                var ids = idsShigeLaiyo.split(',');
+                for (var i = 0; i < ids.length; i++) {
+                    if (ids[i] == id) {
+                        document.getElementById('likeImg' + id).src = 'https://song.gushiwen.org/siteimg/shoucangok.png';
+                        document.getElementById('likeImg' + id).alt = '已收藏';
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    </script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?04660099568f561a75456483228a9516";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+</script>
+
+</head>
+<body onclick="closeshowBos()">
+<div class="main1">
+    <div class="cont">
+        <div class="left">
+            <a href="https://www.gushiwen.org/">古诗文网</a>
+        </div>
+        <div class="right">
+            <div class="son1">
+                <a style="margin-left:1px;" href="https://www.gushiwen.org/">推荐</a>
+
+                  <a href="/shiwen/">诗文</a>
+
+                  <a href="/mingju/">名句</a>
+
+                  <a href="/authors/" style="background-color:#757863;border-bottom:3px solid #F0EFE2;line-height:43px; height:43px;">作者</a>
+
+                  <a href="/guwen/">古籍</a>
+
+                  <a href="/user/collect.aspx" rel="nofollow">我的</a>
+
+                <a style="width:65px;" href="/app/" target="_blank">手机版</a>
+            </div>
+            <div class="son2">
+                <div class="search">
+                <form action="/search.aspx" onsubmit="return selectSearch()" contentType="text/html; charset=utf-8">
+                    <input onkeydown="noajaxkeyUp()" onfocus="setInterval('showBos()',1000)" id="txtKey" name="value" type="text" value="" maxlength="40" autocomplete="off" style="height:25px; line-height:25px; float:left; padding-left:5px; width:264px; font-size:14px; clear:left; border:0px;" />
+                    <input type="submit" style="float:right; width:20px; height:20px; clear:right; margin-top:4px; margin-right:3px; background-image:url(https://song.gushiwen.org/siteimg/docSearch.png); background-repeat:no-repeat; background-size:20px 20px; border:0px;cursor:pointer;" value="" />
+                    <input id="b" style="display:none;" type="text" />
+                </form>
+                </div>
+                <div id="box"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="main3">
+    <div class="left">
+
+      <div class="title">
+        <div class="titleleft"></div>
+        <h1>辛弃疾的诗文全集<span>10 / 91页</span></h1>
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57833">强欲加餐竟未佳。只宜长伴病僧斋。心似风吹香篆过，也无灰。山上朝来云出岫，随风一去未曾回。次第前村行雨了，合归来。——宋代·辛弃疾《浣溪沙·赋清虚》https://so.gushiwen.org/shiwenv_2876fa4082a5.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('2876fa4082a5','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong2876fa4082a5"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('2876fa4082a5')" id="btnShangxi2876fa4082a5"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('2876fa4082a5')" id="btnZhushi2876fa4082a5"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('2876fa4082a5')" id="btnYiwen2876fa4082a5" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi2876fa4082a5").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi2876fa4082a5").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen2876fa4082a5").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_2876fa4082a5.aspx" target="_blank"><b>浣溪沙·赋清虚</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson2876fa4082a5">
+                    强欲加餐竟未佳。只宜长伴病僧斋。心似风吹香篆过，也无灰。<br />山上朝来云出岫，随风一去未曾回。次第前村行雨了，合归来。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57833" name="0" onload="selectLike(57833)" onclick="changeLike(57833,'FC50B40012653F4E','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57833)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_2876fa4082a5.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%872876fa4082a5%e3%80%8a%e6%b5%a3%e6%ba%aa%e6%b2%99%c2%b7%e8%b5%8b%e6%b8%85%e8%99%9a%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57833" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%8a%92%e6%80%80">抒怀</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e4%ba%ba%e7%94%9f">人生</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e8%b1%81%e8%be%be">豁达</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57610">柳边飞鞚，露湿征衣重。宿鹭窥沙孤影动，应有鱼虾入梦。一川明月疏星，浣纱人影娉婷。笑背行人归去，门前稚子啼声。——宋代·辛弃疾《清平乐·博山道中即事》https://so.gushiwen.org/shiwenv_0bcac36697a2.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('0bcac36697a2','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong0bcac36697a2"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('0bcac36697a2')" id="btnShangxi0bcac36697a2"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('0bcac36697a2')" id="btnZhushi0bcac36697a2"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('0bcac36697a2')" id="btnYiwen0bcac36697a2" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi0bcac36697a2").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi0bcac36697a2").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen0bcac36697a2").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_0bcac36697a2.aspx" target="_blank"><b>清平乐·博山道中即事</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson0bcac36697a2">
+                    柳边飞鞚，露湿征衣重。宿鹭窥沙孤影动，应有鱼虾入梦。<br />一川明月疏星，浣纱人影娉婷。笑背行人归去，门前稚子啼声。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57610" name="0" onload="selectLike(57610)" onclick="changeLike(57610,'5F6C8696F415BB1B','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57610)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_0bcac36697a2.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%870bcac36697a2%e3%80%8a%e6%b8%85%e5%b9%b3%e4%b9%90%c2%b7%e5%8d%9a%e5%b1%b1%e9%81%93%e4%b8%ad%e5%8d%b3%e4%ba%8b%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57610" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%99%af%e7%82%b9">景点</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%86%99%e6%99%af">写景</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%86%99%e4%ba%ba">写人</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%8a%92%e6%83%85">抒情</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57819">掩鼻人间臭腐场，古来惟有酒偏香。自从来住云烟畔，直到而今歌舞忙。呼老伴，共秋光。黄花何处避重阳？要知烂熳开时节，直待西风一夜霜。——宋代·辛弃疾《鹧鸪天·寻菊花无有戏作》https://so.gushiwen.org/shiwenv_9e38590bbd58.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('9e38590bbd58','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong9e38590bbd58"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('9e38590bbd58')" id="btnShangxi9e38590bbd58"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('9e38590bbd58')" id="btnZhushi9e38590bbd58"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('9e38590bbd58')" id="btnYiwen9e38590bbd58" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi9e38590bbd58").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi9e38590bbd58").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen9e38590bbd58").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_9e38590bbd58.aspx" target="_blank"><b>鹧鸪天·寻菊花无有戏作</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson9e38590bbd58">
+                    掩鼻人间臭腐场，古来惟有酒偏香。自从来住云烟畔，直到而今歌舞忙。<br />呼老伴，共秋光。黄花何处避重阳？要知烂熳开时节，直待西风一夜霜。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57819" name="0" onload="selectLike(57819)" onclick="changeLike(57819,'1BF3F9103C62E091','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57819)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+              <div class="toolpinglun"><a href="javascript:Play(57819)"><img id="speakerimg57819" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="20" height="20"/></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_9e38590bbd58.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%879e38590bbd58%e3%80%8a%e9%b9%a7%e9%b8%aa%e5%a4%a9%c2%b7%e5%af%bb%e8%8f%8a%e8%8a%b1%e6%97%a0%e6%9c%89%e6%88%8f%e4%bd%9c%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57819" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%92%8f%e7%89%a9">咏物</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e8%b5%9e%e7%be%8e">赞美</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e8%8f%8a%e8%8a%b1">菊花</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%8a%92%e6%80%80">抒怀</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57533">白日射金阙，虎豹九关开。见君谏疏频上，谈笑挽天回。千古忠肝义胆，万里蛮烟瘴雨，往事莫惊猜。政恐不免耳，消息日边来。笑吾庐，门掩草，径封苔。未应两手无用，要把蟹螯杯。说剑论诗余事，醉舞狂歌欲倒，老子颇堪哀。白发宁有种？一一醒时栽！——宋代·辛弃疾《水调歌头·白日射金阙》https://so.gushiwen.org/shiwenv_07978acce4d8.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('07978acce4d8','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong07978acce4d8"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('07978acce4d8')" id="btnShangxi07978acce4d8"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('07978acce4d8')" id="btnZhushi07978acce4d8"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('07978acce4d8')" id="btnYiwen07978acce4d8" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi07978acce4d8").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi07978acce4d8").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen07978acce4d8").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_07978acce4d8.aspx" target="_blank"><b>水调歌头·白日射金阙</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson07978acce4d8">
+                    白日射金阙，虎豹九关开。见君谏疏频上，谈笑挽天回。千古忠肝义胆，万里蛮烟瘴雨，往事莫惊猜。政恐不免耳，消息日边来。<br />笑吾庐，门掩草，径封苔。未应两手无用，要把蟹螯杯。说剑论诗余事，醉舞狂歌欲倒，老子颇堪哀。白发宁有种？一一醒时栽！
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57533" name="0" onload="selectLike(57533)" onclick="changeLike(57533,'2DD3F858A0E501C2','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57533)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_07978acce4d8.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%8707978acce4d8%e3%80%8a%e6%b0%b4%e8%b0%83%e6%ad%8c%e5%a4%b4%c2%b7%e7%99%bd%e6%97%a5%e5%b0%84%e9%87%91%e9%98%99%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57533" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%bf%80%e5%8a%b1">激励</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%8f%8b%e4%ba%ba">友人</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%8a%92%e6%80%80">抒怀</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%84%a4%e6%87%91">愤懑</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57532">带湖吾甚爱，千丈翠奁开。先生杖屦无事，一日走千回。凡我同盟鸥鹭，今日既盟之后，来往莫相猜。白鹤在何处，尝试与偕来。破青萍，排翠藻，立苍苔。窥鱼笑汝痴计，不解举吾杯。废沼荒丘畴昔。明月清风此夜，人世几欢哀。东岸绿阴少，杨柳更须栽。——宋代·辛弃疾《水调歌头·盟鸥》https://so.gushiwen.org/shiwenv_78242ba927b9.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('78242ba927b9','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong78242ba927b9"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('78242ba927b9')" id="btnShangxi78242ba927b9"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('78242ba927b9')" id="btnZhushi78242ba927b9"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('78242ba927b9')" id="btnYiwen78242ba927b9" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi78242ba927b9").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi78242ba927b9").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen78242ba927b9").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_78242ba927b9.aspx" target="_blank"><b>水调歌头·盟鸥</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson78242ba927b9">
+                    带湖吾甚爱，千丈翠奁开。先生杖屦无事，一日走千回。凡我同盟鸥鹭，今日既盟之后，来往莫相猜。白鹤在何处，尝试与偕来。<br />破青萍，排翠藻，立苍苔。窥鱼笑汝痴计，不解举吾杯。废沼荒丘畴昔。明月清风此夜，人世几欢哀。东岸绿阴少，杨柳更须栽。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57532" name="0" onload="selectLike(57532)" onclick="changeLike(57532,'0750F2E1CDE3A1AE','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57532)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_78242ba927b9.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%8778242ba927b9%e3%80%8a%e6%b0%b4%e8%b0%83%e6%ad%8c%e5%a4%b4%c2%b7%e7%9b%9f%e9%b8%a5%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57532" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%98%a5%e6%b8%b8">春游</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e9%9a%90%e9%80%b8">隐逸</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e7%94%9f%e6%b4%bb">生活</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57748">一丘壑。老子风流占却。茅檐上、松月桂云，脉脉石泉逗山脚。寻思前事错。恼杀晨猿夜鹤。终须是、邓禹辈人，锦绣麻霞坐黄阁。长歌自深酌。看天阔鸢飞，渊静鱼跃。西风黄菊芗喷薄。怅日暮云合，佳人何处，纫兰结佩带杜若。入江海曾约。遇合。事难托。莫击磬门前，荷蒉人过，仰天大笑冠簪落。待说与穷达，不须疑著。古来贤者，进亦乐，退亦乐。——宋代·辛弃疾《兰陵王·赋一丘一壑》https://so.gushiwen.org/shiwenv_8e8365eccc48.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('8e8365eccc48','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong8e8365eccc48"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('8e8365eccc48')" id="btnShangxi8e8365eccc48"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('8e8365eccc48')" id="btnZhushi8e8365eccc48"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('8e8365eccc48')" id="btnYiwen8e8365eccc48" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi8e8365eccc48").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi8e8365eccc48").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen8e8365eccc48").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_8e8365eccc48.aspx" target="_blank"><b>兰陵王·赋一丘一壑</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson8e8365eccc48">
+                    一丘壑。老子风流占却。茅檐上、松月桂云，脉脉石泉逗山脚。寻思前事错。恼杀晨猿夜鹤。终须是、邓禹辈人，锦绣麻霞坐黄阁。<br />长歌自深酌。看天阔鸢飞，渊静鱼跃。西风黄菊芗喷薄。怅日暮云合，佳人何处，纫兰结佩带杜若。入江海曾约。<br />遇合。事难托。莫击磬门前，荷蒉人过，仰天大笑冠簪落。待说与穷达，不须疑著。古来贤者，进亦乐，退亦乐。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57748" name="0" onload="selectLike(57748)" onclick="changeLike(57748,'36EA5080D59A871B','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57748)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_8e8365eccc48.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%878e8365eccc48%e3%80%8a%e5%85%b0%e9%99%b5%e7%8e%8b%c2%b7%e8%b5%8b%e4%b8%80%e4%b8%98%e4%b8%80%e5%a3%91%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57748" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%86%99%e6%99%af">写景</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%bd%92%e9%9a%90">归隐</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%97%b7%e8%be%be">旷达</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%b7%a1%e6%b3%8a">淡泊</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57887">烈日秋霜，忠肝义胆，千载家谱。得姓何年，细参辛字，一笑君听取。艰辛做就，悲辛滋味，总是辛酸辛苦。更十分，向人辛辣，椒桂捣残堪吐。 世间应有，芳甘浓美，不到吾家门户。比著儿曹，累累却有，金印光垂组。付君此事，从今直上，休忆对床风雨。但赢得，靴纹绉面，记余戏语。——宋代·辛弃疾《永遇乐·戏赋辛字送茂嘉十二弟赴调》https://so.gushiwen.org/shiwenv_15769bc804a0.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('15769bc804a0','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong15769bc804a0"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('15769bc804a0')" id="btnShangxi15769bc804a0"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('15769bc804a0')" id="btnZhushi15769bc804a0"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('15769bc804a0')" id="btnYiwen15769bc804a0" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi15769bc804a0").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi15769bc804a0").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen15769bc804a0").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_15769bc804a0.aspx" target="_blank"><b>永遇乐·戏赋辛字送茂嘉十二弟赴调</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson15769bc804a0">
+                    烈日秋霜，忠肝义胆，千载家谱。得姓何年，细参辛字，一笑君听取。艰辛做就，悲辛滋味，总是辛酸辛苦。更十分，向人辛辣，椒桂捣残堪吐。 <br />世间应有，芳甘浓美，不到吾家门户。比著儿曹，累累却有，金印光垂组。付君此事，从今直上，休忆对床风雨。但赢得，靴纹绉面，记余戏语。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57887" name="0" onload="selectLike(57887)" onclick="changeLike(57887,'A97B09C5976612D5','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57887)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+              <div class="toolpinglun"><a href="javascript:Play(57887)"><img id="speakerimg57887" src="https://song.gushiwen.org/siteimg/speaker.png" / alt="" width="20" height="20"/></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_15769bc804a0.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%8715769bc804a0%e3%80%8a%e6%b0%b8%e9%81%87%e4%b9%90%c2%b7%e6%88%8f%e8%b5%8b%e8%be%9b%e5%ad%97%e9%80%81%e8%8c%82%e5%98%89%e5%8d%81%e4%ba%8c%e5%bc%9f%e8%b5%b4%e8%b0%83%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57887" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e9%80%81%e5%88%ab">送别</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%84%9f%e6%85%a8">感慨</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e8%ae%ae%e8%ae%ba">议论</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare58006">夜月楼台，秋香院宇。笑吟吟地人来去。是谁秋到便凄凉？当年宋玉悲如许。随分杯盘，等闲歌舞。问他有甚堪悲处？思量却也有悲时，重阳节近多风雨。——宋代·辛弃疾《踏莎行·庚戌中秋后二夕带湖篆冈小酌》https://so.gushiwen.org/shiwenv_b52746df194f.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('b52746df194f','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisongb52746df194f"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('b52746df194f')" id="btnShangxib52746df194f"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('b52746df194f')" id="btnZhushib52746df194f"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('b52746df194f')" id="btnYiwenb52746df194f" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxib52746df194f").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushib52746df194f").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwenb52746df194f").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_b52746df194f.aspx" target="_blank"><b>踏莎行·庚戌中秋后二夕带湖篆冈小酌</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contsonb52746df194f">
+                    夜月楼台，秋香院宇。笑吟吟地人来去。是谁秋到便凄凉？当年宋玉悲如许。<br />随分杯盘，等闲歌舞。问他有甚堪悲处？思量却也有悲时，重阳节近多风雨。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg58006" name="0" onload="selectLike(58006)" onclick="changeLike(58006,'538553513DCE7C65','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(58006)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_b52746df194f.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%87b52746df194f%e3%80%8a%e8%b8%8f%e8%8e%8e%e8%a1%8c%c2%b7%e5%ba%9a%e6%88%8c%e4%b8%ad%e7%a7%8b%e5%90%8e%e4%ba%8c%e5%a4%95%e5%b8%a6%e6%b9%96%e7%af%86%e5%86%88%e5%b0%8f%e9%85%8c%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay58006" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e7%a7%8b%e5%a4%a9">秋天</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%86%99%e6%99%af">写景</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e6%82%b2%e7%a7%8b">悲秋</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57585">汉中开汉业，问此地、是耶非。想剑指三秦，君王得意，一战东归。追亡事、今不见，但山川满目泪沾衣。落日胡尘未断，西风塞马空肥。 一编书是帝王师，小试去征西。更草草离筵，匆匆去路，愁满旌旗。君思我、回首处，正江涵秋影雁初飞。安得车轮四角，不堪带减腰围。——宋代·辛弃疾《木兰花慢·席上送张仲固帅兴元》https://so.gushiwen.org/shiwenv_1cd07374718b.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('1cd07374718b','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisong1cd07374718b"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('1cd07374718b')" id="btnShangxi1cd07374718b"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('1cd07374718b')" id="btnZhushi1cd07374718b"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('1cd07374718b')" id="btnYiwen1cd07374718b" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxi1cd07374718b").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushi1cd07374718b").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwen1cd07374718b").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_1cd07374718b.aspx" target="_blank"><b>木兰花慢·席上送张仲固帅兴元</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contson1cd07374718b">
+                    汉中开汉业，问此地、是耶非。想剑指三秦，君王得意，一战东归。追亡事、今不见，但山川满目泪沾衣。落日胡尘未断，西风塞马空肥。 <br />一编书是帝王师，小试去征西。更草草离筵，匆匆去路，愁满旌旗。君思我、回首处，正江涵秋影雁初飞。安得车轮四角，不堪带减腰围。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57585" name="0" onload="selectLike(57585)" onclick="changeLike(57585,'5A5CB31B5B4221CF','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57585)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_1cd07374718b.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%871cd07374718b%e3%80%8a%e6%9c%a8%e5%85%b0%e8%8a%b1%e6%85%a2%c2%b7%e5%b8%ad%e4%b8%8a%e9%80%81%e5%bc%a0%e4%bb%b2%e5%9b%ba%e5%b8%85%e5%85%b4%e5%85%83%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57585" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e8%b1%aa%e6%94%be">豪放</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%ae%b4%e9%a5%ae">宴饮</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e9%80%81%e5%88%ab">送别</a>
+
+    </div>
+
+        </div>
+
+          <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtare57848">少年痛饮，忆向吴江醒。明月团团高树影，十里水沉烟冷。大都一点宫黄，人间直恁芬芳。怕是秋天风露，染教世界都香。——宋代·辛弃疾《清平乐·谢叔良惠木犀》https://so.gushiwen.org/shiwenv_cabcac1bf8fd.aspx</textarea>
+</div>
+          <div class="sons">
+          <div class="cont">
+              <div class="yizhu">
+               <img src="https://song.gushiwen.org/siteimg/beipic.png"  width="25" height="25" alt="背诵" onclick="OnBeisong('cabcac1bf8fd','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" id="btnBeisongcabcac1bf8fd"/>
+                                   <img style=" display:none;" src="https://song.gushiwen.org/siteimg/shangpic.png"  width="25" height="25" alt="赏析" onclick="OnShangxi('cabcac1bf8fd')" id="btnShangxicabcac1bf8fd"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/zhupic.png"  width="25" height="25" alt="注释" onclick="OnZhushi('cabcac1bf8fd')" id="btnZhushicabcac1bf8fd"/>
+                    <img style=" display:none;" src="https://song.gushiwen.org/siteimg/yipic.png" width="25" height="25" alt="译文" onclick="OnYiwen('cabcac1bf8fd')" id="btnYiwencabcac1bf8fd" />
+
+                    <script type="text/javascript">
+                        document.getElementById("btnShangxicabcac1bf8fd").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnZhushicabcac1bf8fd").style.display = "block";
+                    </script>
+
+                    <script type="text/javascript">
+                        document.getElementById("btnYiwencabcac1bf8fd").style.display = "block";
+                    </script>
+
+               </div>
+              <p><a style="font-size:18px; line-height:22px; height:22px; " href="/shiwenv_cabcac1bf8fd.aspx" target="_blank"><b>清平乐·谢叔良惠木犀</b></a></p>
+              <p class="source"><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%e5%ae%8b%e4%bb%a3">宋代</a><span>：</span><a href="/authorv_a7900666497f.aspx">辛弃疾</a></p>
+                <div class="contson" id="contsoncabcac1bf8fd">
+                    少年痛饮，忆向吴江醒。明月团团高树影，十里水沉烟冷。<br />大都一点宫黄，人间直恁芬芳。怕是秋天风露，染教世界都香。
+                </div>
+              </div>
+          <div class="tool">
+            <div class="shoucang"><img id="likeImg57848" name="0" onload="selectLike(57848)" onclick="changeLike(57848,'B5FA7938D4F7E12E','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+            <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+            <div class="toolpinglun"><a href="javascript:copy(57848)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+
+            <div class="toolpinglun" ><a href="https://so.gushiwen.org/shiwenv_cabcac1bf8fd.aspx" target="_blank"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+            <div class="jiucuo"><a href="/jiucuo.aspx?u=%e8%af%97%e6%96%87cabcac1bf8fd%e3%80%8a%e6%b8%85%e5%b9%b3%e4%b9%90%c2%b7%e8%b0%a2%e5%8f%94%e8%89%af%e6%83%a0%e6%9c%a8%e7%8a%80%e3%80%8b" target="_blank">完善</a></div>
+            </div>
+            <div id="toolPlay57848" style=" display:none;clear:both;"></div>
+
+        <div class="tag">
+
+<a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%9b%9e%e5%bf%86">回忆</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e4%bc%a4%e6%80%80">伤怀</a>
+
+              <span>，</span><a href="https://so.gushiwen.org/shiwen/default.aspx?tstr=%e5%ad%a4%e5%af%82">孤寂</a>
+
+    </div>
+
+        </div>
+
+          <form id="FromPage" method="get" action="/authors/authorvsw.aspx" onsubmit="return PageSubmit()">
+            <div class="pagesright">
+
+              <a class="amore" href="/authors/authorvsw_a7900666497fA11.aspx">下一页</a>
+
+                        <a href="/authors/authorvsw_a7900666497fA9.aspx">上一页</a>
+
+                      <span style=" background-color:#E1E0C7; border:0px; margin-top:22px; width:auto;">/ 91页</span>
+                      <span class="curent"><input id="putpage" name="page" value="10" autocomplete="off" onblur="SubPage()" /></span>
+                      <label id="temppage" style="display:none;">10</label>
+                      <label id="sumPage" style="display:none;">91</label>
+                      <input type="hidden" name="id" value="a7900666497f" />
+         </div>
+         </form>
+    </div>
+    <div class="right">
+
+      <div style=" width:1px; height:1px; overflow:hidden;">
+<textarea style=" background-color:#F0EFE2; border:0px;overflow:hidden;" cols="1" rows="1" id="txtareAuthor217">辛弃疾（1140－1207），南宋词人。原字坦夫，改字幼安，别号稼轩，汉族，历城（今山东济南）人。出生时，中原已为金兵所占。21岁参加抗金义军，不久归南宋。历任湖北、江西、湖南、福建、浙东安抚使等职。一生力主抗金。曾上《美芹十论》与《九议》，条陈战守之策。其词抒写力图恢复国家统一的爱国热情，倾诉壮志难酬的悲愤，对当时执政者的屈辱求和颇多谴责；也有不少吟咏祖国河山的作品。题材广阔又善化用前人典故入词，风格沉雄豪迈又不乏细腻柔媚之处。由于辛弃疾的抗金主张与当政的主和派政见不合，后被弹劾落职，退隐江西带湖。https://so.gushiwen.org/authorv_a7900666497f.aspx</textarea>
+</div>
+
+            <div class="sonspic">
+            <div class="cont">
+
+                    <div class="divimg">
+                    <a href="/authorv_a7900666497f.aspx"><img src="https://song.gushiwen.cn/authorImg/xinqiji.jpg" width="105" height="150" alt="辛弃疾"/></a>
+                    </div>
+
+                    <p><a style="font-size:18px; line-height:22px; height:22px;" href="/authorv_a7900666497f.aspx"><b>辛弃疾</b></a></p>
+                    <p style=" margin:0px;">辛弃疾（1140－1207），南宋词人。原字坦夫，改字幼安，别号稼轩，汉族，历城（今山东济南）人。出生时，中原已为金兵所占。21岁参加抗金义军，不久归南宋。历任湖北、江西、湖南、福建、浙东安抚使等职。一生力主抗金。曾上《美芹十论》与《九议》，条陈战守之策。其词抒写力图恢复国家统一的爱国热情，倾诉壮志难酬的悲愤，对当时执政者的屈辱求和颇多谴责；也有不少吟咏祖国河山的作品。题材广阔又善化用前人典故入词，风格沉雄豪迈又不乏细腻柔媚之处。由于辛弃疾的抗金主张与当政的主和派政见不合，后被弹劾落职，退隐江西带湖。</p>
+            </div>
+            <div class="tool">
+                <div class="shoucang"><img id="likeImg217" name="0" onload="selectLikeAuthor(217)" onclick="changeLikeAuthor(217,'B3C26D385CB6A07F','http://so.gushiwen.org/authors/authorvsw.aspx?idpage=a7900666497fA10')" src="https://song.gushiwen.org/siteimg/shoucang.png" alt="收藏" width="20" height="20" /></div>
+                <div class="toolpinglun"><a href="https://so.gushiwen.org/app/"><img src="https://song.gushiwen.org/siteimg/download.png" alt="下载" width="20" height="20" /></a></div>
+                <div class="toolpinglun"><a href="javascript:copyAuthor(217)"><img src="https://song.gushiwen.org/siteimg/copy.png" alt="复制" width="20" height="20" /></a></div>
+                <div class="toolpinglun" ><a href="/authorv_a7900666497f.aspx"><img src="https://song.gushiwen.org/siteimg/toolmore.png" alt="详情" width="20" height="20" /></a></div>
+                <div class="jiucuo"><a style="line-height:18px;" href="/jiucuo.aspx?u=%e4%bd%9c%e8%80%85a7900666497f%e3%80%8a%e8%be%9b%e5%bc%83%e7%96%be%e3%80%8b" target="_blank">完善</a></div>
+                </div>
+        </div>
+
+        <div class="abcd">
+
+<script type="text/javascript" src="//yijiuningyia.gushiwen.org/site/production/p0c0e.js?qlatnki=nr"></script>
+        </div>
+
+        <div class="juzioncont">
+          <img style=" float:left; margin:10px; margin-right:0px;" src="/app/appdown2.png" width="80" height="80" /><p><center style="font-size:18px; margin-top:14px;">扫码下载</center></p><p><center style="font-size:18px; margin-top:5px;">古诗文网客户端</center></p>
+        </div>
+        <div class="abcd">
+
+<script type="text/javascript" src="//yijiuningyia.gushiwen.org/site/res/js/wmah8m.js?cxptt=dytm"></script>
+
+        </div>
+
+            <div class="juzioncont">
+              <img style=" float:left; margin:10px; margin-right:0px;" src="/app/weixin.png" width="80" height="80" /><p><center style="font-size:18px; margin-top:14px;">扫码关注</center></p><p><center style="font-size:18px;margin-top:5px;">诗词秀公众号</center></p>
+            </div>
+            <div class="abcd">
+
+<script type="text/javascript" src="//yijiuningyia.gushiwen.org/common/site/izgy4.js?n=ixqkhkrr"></script>
+            </div>
+
+    </div>
+    </div>
+
+
+<div class="main4">
+    © 2020 <a href="https://www.gushiwen.org/">古诗文网</a> | <a href="https://so.gushiwen.cn/shiwen/">诗文</a> | <a href="https://so.gushiwen.cn/mingju/">名句</a> | <a href="https://so.gushiwen.cn/authors/">作者</a> | <a href="https://so.gushiwen.cn/guwen/">古籍</a> | <a href="/jiucuo.aspx?u=" target="_blank" rel="nofollow">纠错</a>
+</div>
+
+
+<script type="text/javascript">
+    window.onload = function () {
+        setIframeHeight(document.getElementById('external-frame'));
+    };
+        </script>
+
+<script defer="defer" src="/js/skinso20191025.js" type="text/javascript"></script>
+</body>
+</html>
